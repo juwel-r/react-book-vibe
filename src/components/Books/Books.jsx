@@ -6,12 +6,12 @@ const Books = () => {
   useEffect(() => {
     fetch("public/booksData.json")
       .then((res) => res.json())
-      .then((data) => console.log(data));
+      .then((data) => setBooks(data));
   }, []);
   return (
     <div>
       {
-        books.map(book => <Book></Book>)
+        books.map(book => <Book key={book.bookId} book={book}></Book>)
       }
     </div>
   );

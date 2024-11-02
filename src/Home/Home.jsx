@@ -4,7 +4,7 @@ import Books from '../components/Books/Books';
 
 const Home = () => {
     return (
-        <div className='w-[95%] mx-auto'>
+        <div className='w-[95%] mx-auto transition-all duration-1000'>
                 <Banner></Banner>
                 <Books></Books>
         </div>
