@@ -6,11 +6,12 @@ import "./Nav.css";
 
 LuMenu;
 //npm install @react-icons/all-files --save ====>>install react icons
+//npm install react-icons --save
 
 const Nav = () => {
   const routes = [
     { id: 1, path: "/", name: "Home" },
-    { id: 2, path: "/dashboard", name: "Listed Book" },
+    { id: 2, path: "/listed-books", name: "Listed Books" },
     { id: 3, path: "/about", name: "Pages To Read" },
   ];
 

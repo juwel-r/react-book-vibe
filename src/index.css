@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root[data-theme="light"] {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+
 /* 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
